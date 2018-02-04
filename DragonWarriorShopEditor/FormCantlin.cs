@@ -135,37 +135,40 @@ namespace DragonWarriorShopEditor
         {
             Backend backend = new Backend(path);
 
-            backend.setShopItem(0x19B6, comboBox1.SelectedValue.ToString());
-            backend.setShopItem(0x19B7, comboBox2.SelectedValue.ToString());
-            backend.setShopItem(0x19B8, comboBox3.SelectedValue.ToString());
-            backend.setShopItem(0x19B9, comboBox4.SelectedValue.ToString());
-            backend.setShopItem(0x19BA, comboBox5.SelectedValue.ToString());
-            backend.setShopItem(0x19BB, comboBox6.SelectedValue.ToString());
-            backend.setShopItem(0x19BD, comboBox7.SelectedValue.ToString());
-            backend.setShopItem(0x19BE, comboBox8.SelectedValue.ToString());
-            backend.setShopItem(0x19BF, comboBox9.SelectedValue.ToString());
-            backend.setShopItem(0x19C0, comboBox10.SelectedValue.ToString());
-            backend.setShopItem(0x19C2, comboBox11.SelectedValue.ToString());
-            backend.setShopItem(0x19C3, comboBox12.SelectedValue.ToString());
-            backend.setShopItem(0x19D9, comboBox13.SelectedValue.ToString());
-            backend.setShopItem(0x19DA, comboBox14.SelectedValue.ToString());
-            backend.setShopItem(0x19DC, comboBox15.SelectedValue.ToString());
-            backend.setShopItem(0x19DD, comboBox16.SelectedValue.ToString());
+            bool result1 = backend.setShopItem(0x19B6, comboBox1.SelectedValue.ToString());
+            bool result2 = backend.setShopItem(0x19B7, comboBox2.SelectedValue.ToString());
+            bool result3 = backend.setShopItem(0x19B8, comboBox3.SelectedValue.ToString());
+            bool result4 = backend.setShopItem(0x19B9, comboBox4.SelectedValue.ToString());
+            bool result5 = backend.setShopItem(0x19BA, comboBox5.SelectedValue.ToString());
+            bool result6 = backend.setShopItem(0x19BB, comboBox6.SelectedValue.ToString());
+            bool result7 = backend.setShopItem(0x19BD, comboBox7.SelectedValue.ToString());
+            bool result8 = backend.setShopItem(0x19BE, comboBox8.SelectedValue.ToString());
+            bool result9 = backend.setShopItem(0x19BF, comboBox9.SelectedValue.ToString());
+            bool result10 = backend.setShopItem(0x19C0, comboBox10.SelectedValue.ToString());
+            bool result11 = backend.setShopItem(0x19C2, comboBox11.SelectedValue.ToString());
+            bool result12 = backend.setShopItem(0x19C3, comboBox12.SelectedValue.ToString());
+            bool result13 = backend.setShopItem(0x19D9, comboBox13.SelectedValue.ToString());
+            bool result14 = backend.setShopItem(0x19DA, comboBox14.SelectedValue.ToString());
+            bool result15 = backend.setShopItem(0x19DC, comboBox15.SelectedValue.ToString());
+            bool result16 = backend.setShopItem(0x19DD, comboBox16.SelectedValue.ToString());
 
-            //    MessageBox.Show("There was a problem updating the ROM header. " + errorMsg + ".",
-            //        "Error",
-            //        MessageBoxButtons.OK,
-            //        MessageBoxIcon.Error,
-            //        MessageBoxDefaultButton.Button1);
-            //}
-            //else
-            //{
-            MessageBox.Show("ROM updated!",
-                "Success",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information,
-                MessageBoxDefaultButton.Button1);
-            //}
+            if (result1 && result2 && result3 && result4 && result5 && result6 && result7 && result8 && result9
+                && result10 && result11 && result12 && result13 && result14 && result15 && result16)
+            {
+                MessageBox.Show("ROM updated!",
+                    "Success",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information,
+                    MessageBoxDefaultButton.Button1);
+            }
+            else
+            {
+                MessageBox.Show("ROM update failed.",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+            }
         }
     }
 }

@@ -12,3 +12,4 @@ F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\Dr
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.csproj.GenerateResource.Cache
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.exe
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.pdb
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.csprojResolveAssemblyReference.cache

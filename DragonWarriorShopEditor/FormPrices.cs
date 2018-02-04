@@ -110,53 +110,58 @@ namespace DragonWarriorShopEditor
         {
 
             Backend backend = new Backend(path);
-            backend.setPrice(0x1957, textBox1.Text);
-            backend.setPrice(0x1959, textBox2.Text);
-            backend.setPrice(0x195B, textBox3.Text);
-            backend.setPrice(0x195D, textBox4.Text);
-            backend.setPrice(0x195F, textBox5.Text);
-            backend.setPrice(0x1961, textBox6.Text);
-            backend.setPrice(0x1963, textBox7.Text);
-            backend.setPrice(0x1965, textBox8.Text);
-            backend.setPrice(0x1967, textBox9.Text);
-            backend.setPrice(0x1969, textBox10.Text);
-            backend.setPrice(0x196B, textBox11.Text);
-            backend.setPrice(0x196D, textBox12.Text);
-            backend.setPrice(0x196F, textBox13.Text);
-            backend.setPrice(0x1971, textBox14.Text);
-            backend.setPrice(0x1973, textBox15.Text);
-            backend.setPrice(0x1975, textBox16.Text);
-            backend.setPrice(0x1977, textBox17.Text);
-            backend.setPrice(0x1979, textBox18.Text);
-            backend.setPrice(0x197B, textBox19.Text);
-            backend.setPrice(0x197D, textBox20.Text);
-            backend.setPrice(0x197F, textBox21.Text);
-            backend.setPrice(0x1981, textBox22.Text);
-            backend.setPrice(0x1983, textBox23.Text);
+            bool result1 = backend.setPrice(0x1957, textBox1.Text);
+            bool result2 = backend.setPrice(0x1959, textBox2.Text);
+            bool result3 = backend.setPrice(0x195B, textBox3.Text);
+            bool result4 = backend.setPrice(0x195D, textBox4.Text);
+            bool result5 = backend.setPrice(0x195F, textBox5.Text);
+            bool result6 = backend.setPrice(0x1961, textBox6.Text);
+            bool result7 = backend.setPrice(0x1963, textBox7.Text);
+            bool result8 = backend.setPrice(0x1965, textBox8.Text);
+            bool result9 = backend.setPrice(0x1967, textBox9.Text);
+            bool result10 = backend.setPrice(0x1969, textBox10.Text);
+            bool result11 = backend.setPrice(0x196B, textBox11.Text);
+            bool result12 = backend.setPrice(0x196D, textBox12.Text);
+            bool result13 = backend.setPrice(0x196F, textBox13.Text);
+            bool result14 = backend.setPrice(0x1971, textBox14.Text);
+            bool result15 = backend.setPrice(0x1973, textBox15.Text);
+            bool result16 = backend.setPrice(0x1975, textBox16.Text);
+            bool result17 = backend.setPrice(0x1977, textBox17.Text);
+            bool result18 = backend.setPrice(0x1979, textBox18.Text);
+            bool result19 = backend.setPrice(0x197B, textBox19.Text);
+            bool result20 = backend.setPrice(0x197D, textBox20.Text);
+            bool result21 = backend.setPrice(0x197F, textBox21.Text);
+            bool result22 = backend.setPrice(0x1981, textBox22.Text);
+            bool result23 = backend.setPrice(0x1983, textBox23.Text);
 
-            backend.setPriceSingleByte(0x1999, textBox24.Text);
-            backend.setPriceSingleByte(0x199A, textBox25.Text);
-            backend.setPriceSingleByte(0x199B, textBox26.Text);
-            backend.setPriceSingleByte(0x199C, textBox27.Text);
-            backend.setPriceSingleByte(0x199D, textBox28.Text);
-            backend.setPriceSingleByte(0x199E, textBox29.Text);
-            backend.setPriceSingleByte(0x199F, textBox30.Text);
-            backend.setPriceSingleByte(0x19A0, textBox31.Text);
+            bool result24 = backend.setPriceSingleByte(0x1999, textBox24.Text);
+            bool result25 = backend.setPriceSingleByte(0x199A, textBox25.Text);
+            bool result26 = backend.setPriceSingleByte(0x199B, textBox26.Text);
+            bool result27 = backend.setPriceSingleByte(0x199C, textBox27.Text);
+            bool result28 = backend.setPriceSingleByte(0x199D, textBox28.Text);
+            bool result29 = backend.setPriceSingleByte(0x199E, textBox29.Text);
+            bool result30 = backend.setPriceSingleByte(0x199F, textBox30.Text);
+            bool result31 = backend.setPriceSingleByte(0x19A0, textBox31.Text);
 
-            //    MessageBox.Show("There was a problem updating the ROM header. " + errorMsg + ".",
-            //        "Error",
-            //        MessageBoxButtons.OK,
-            //        MessageBoxIcon.Error,
-            //        MessageBoxDefaultButton.Button1);
-            //}
-            //else
-            //{
-            MessageBox.Show("ROM updated!",
-                "Success",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information,
-                MessageBoxDefaultButton.Button1);
-            //}
+            if(result1 && result2 && result3 && result4 && result5 && result6 && result7 && result8 && result9 
+                && result10 && result11 && result12 && result13 && result14 && result15 && result16 && result17 && result18 && result19 
+                && result20 && result21 && result22 && result23 && result24 && result25 && result26 && result27 && result28 && result29
+                && result30 && result31)
+            {
+                MessageBox.Show("ROM updated!",
+                    "Success",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information,
+                    MessageBoxDefaultButton.Button1);
+            }
+            else
+            {
+                MessageBox.Show("ROM update failed.",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+            }
         }
     }
 }

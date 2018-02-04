@@ -76,27 +76,29 @@ namespace DragonWarriorShopEditor
         {
             Backend backend = new Backend(path);
 
-            backend.setShopItem(0x19C5, comboBox1.SelectedValue.ToString());
-            backend.setShopItem(0x19C6, comboBox2.SelectedValue.ToString());
-            backend.setShopItem(0x19C7, comboBox3.SelectedValue.ToString());
-            backend.setShopItem(0x19C8, comboBox4.SelectedValue.ToString());
-            backend.setShopItem(0x19C9, comboBox5.SelectedValue.ToString());
-            backend.setShopItem(0x19CA, comboBox6.SelectedValue.ToString());
+            bool result1 = backend.setShopItem(0x19C5, comboBox1.SelectedValue.ToString());
+            bool result2 = backend.setShopItem(0x19C6, comboBox2.SelectedValue.ToString());
+            bool result3 = backend.setShopItem(0x19C7, comboBox3.SelectedValue.ToString());
+            bool result4 = backend.setShopItem(0x19C8, comboBox4.SelectedValue.ToString());
+            bool result5 = backend.setShopItem(0x19C9, comboBox5.SelectedValue.ToString());
+            bool result6 = backend.setShopItem(0x19CA, comboBox6.SelectedValue.ToString());
 
-            //    MessageBox.Show("There was a problem updating the ROM header. " + errorMsg + ".",
-            //        "Error",
-            //        MessageBoxButtons.OK,
-            //        MessageBoxIcon.Error,
-            //        MessageBoxDefaultButton.Button1);
-            //}
-            //else
-            //{
-            MessageBox.Show("ROM updated!",
-                "Success",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information,
-                MessageBoxDefaultButton.Button1);
-            //}
+            if (result1 && result2 && result3 && result4 && result5 && result6)
+            {
+                MessageBox.Show("ROM updated!",
+                    "Success",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information,
+                    MessageBoxDefaultButton.Button1);
+            }
+            else
+            {
+                MessageBox.Show("ROM update failed.",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+            }
         }
     }
 }

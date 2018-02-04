@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C81CAE7B-DBC0-4F71-9356-0F0DFB967290}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DragonWarriorShopEditor</RootNamespace>
+    <AssemblyName>DragonWarriorShopEditor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>shopkeep.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Backend.cs" />
+    <Compile Include="FormBrecconary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBrecconary.Designer.cs">
+      <DependentUpon>FormBrecconary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCantlin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCantlin.Designer.cs">
+      <DependentUpon>FormCantlin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGarinham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGarinham.Designer.cs">
+      <DependentUpon>FormGarinham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKol.Designer.cs">
+      <DependentUpon>FormKol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrices.Designer.cs">
+      <DependentUpon>FormPrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRimuldar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRimuldar.Designer.cs">
+      <DependentUpon>FormRimuldar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBrecconary.resx">
+      <DependentUpon>FormBrecconary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCantlin.resx">
+      <DependentUpon>FormCantlin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGarinham.resx">
+      <DependentUpon>FormGarinham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKol.resx">
+      <DependentUpon>FormKol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrices.resx">
+      <DependentUpon>FormPrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRimuldar.resx">
+      <DependentUpon>FormRimuldar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shopkeep.png" />
+    <None Include="res\shop.png" />
+    <None Include="res\dw1.png" />
+    <Content Include="shopkeep.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\bin\Debug\DragonWarriorShopEditor.exe
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\bin\Debug\DragonWarriorShopEditor.pdb
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.AboutBox1.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.FormMain.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.FormPrices.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.Properties.Resources.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.csproj.GenerateResource.Cache
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.exe
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.pdb
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.csprojResolveAssemblyReference.cache
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.FormKol.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.FormBrecconary.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.FormCantlin.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.FormGarinham.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Debug\DragonWarriorShopEditor.FormRimuldar.resources

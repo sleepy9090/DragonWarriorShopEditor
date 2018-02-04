@@ -1,0 +1,14 @@
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\bin\Release\DragonWarriorShopEditor.exe
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\bin\Release\DragonWarriorShopEditor.pdb
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.AboutBox1.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormBrecconary.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormCantlin.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormGarinham.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormKol.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormMain.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormPrices.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormRimuldar.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.Properties.Resources.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.csproj.GenerateResource.Cache
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.exe
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.pdb

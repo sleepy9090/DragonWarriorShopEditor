@@ -27,10 +27,10 @@ namespace DragonWarriorShopEditor
         private void FormPrices_Load(object sender, EventArgs e)
         {
             setMaxTextboxLength();
-            loadROMText();
+            loadROMPrices();
         }
 
-        private void loadROMText()
+        private void loadROMPrices()
         {
             Backend backend = new Backend(path);
 
@@ -163,5 +163,388 @@ namespace DragonWarriorShopEditor
                     MessageBoxDefaultButton.Button1);
             }
         }
+
+        #region textbox validation
+
+        private void validateTextBox255(object sender, KeyPressEventArgs e)
+        {
+            char keypress = e.KeyChar;
+            if (char.IsDigit(keypress) || e.KeyChar == Convert.ToChar(Keys.Back))
+            {
+                // 
+            }
+            else
+            {
+                MessageBox.Show("This must be a numeric value, inclusive, between 0 and 255.",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+                e.Handled = true;
+            }
+        }
+
+        private void validateTextBox255(object sender, KeyEventArgs e, TextBox textBox)
+        {
+            int value;
+
+            if (int.TryParse(textBox.Text, out value))
+            {
+                if (value > 255)
+                {
+                    textBox.Text = "255";
+                }
+            }
+            else
+            {
+                // Should not happen.
+            }
+        }
+
+        private void validateTextBox65535(object sender, KeyPressEventArgs e)
+        {
+            char keypress = e.KeyChar;
+            if (char.IsDigit(keypress) || e.KeyChar == Convert.ToChar(Keys.Back))
+            {
+                // 
+            }
+            else
+            {
+                MessageBox.Show("This must be a numeric value, inclusive, between 0 and 65535.",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+                e.Handled = true;
+            }
+        }
+
+        private void validateTextBox65535(object sender, KeyEventArgs e, TextBox textBox)
+        {
+            int value;
+
+            if (int.TryParse(textBox.Text, out value))
+            {
+                if (value > 65535)
+                {
+                    textBox.Text = "65535";
+                }
+            }
+            else
+            {
+                // Should not happen.
+            }
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox1_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox1);
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox2_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox2);
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox3_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox3);
+        }
+
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox4_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox4);
+        }
+
+        private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox5_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox5);
+        }
+
+        private void textBox6_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox6_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox6);
+        }
+
+        private void textBox7_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox7_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox7);
+        }
+
+        private void textBox8_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox8_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox8);
+        }
+
+        private void textBox9_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox9_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox9);
+        }
+
+        private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox10_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox10);
+        }
+
+        private void textBox11_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox11_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox11);
+        }
+
+        private void textBox12_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox12_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox12);
+        }
+
+        private void textBox13_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox13_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox13);
+        }
+
+        private void textBox14_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox14_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox14);
+        }
+
+        private void textBox15_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox15_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox15);
+        }
+
+        private void textBox16_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox16_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox16);
+        }
+
+        private void textBox17_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox17_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox17);
+        }
+
+        private void textBox18_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox18_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox18);
+        }
+
+        private void textBox19_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox19_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox19);
+        }
+
+        private void textBox20_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox20_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox20);
+        }
+
+        private void textBox21_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox21_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox21);
+        }
+
+        private void textBox22_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox22_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox22);
+        }
+
+        private void textBox23_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox65535(sender, e);
+        }
+
+        private void textBox23_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox65535(sender, e, textBox23);
+        }
+
+        private void textBox24_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox255(sender, e);
+        }
+
+        private void textBox24_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox255(sender, e, textBox23);
+        }
+
+        private void textBox25_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox255(sender, e);
+        }
+
+        private void textBox25_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox255(sender, e, textBox25);
+        }
+
+        private void textBox26_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox255(sender, e);
+        }
+
+        private void textBox26_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox255(sender, e, textBox26);
+        }
+
+        private void textBox27_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox255(sender, e);
+        }
+
+        private void textBox27_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox255(sender, e, textBox27);
+        }
+
+        private void textBox28_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox255(sender, e);
+        }
+
+        private void textBox28_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox255(sender, e, textBox28);
+        }
+
+        private void textBox29_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox255(sender, e);
+        }
+
+        private void textBox29_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox255(sender, e, textBox29);
+        }
+
+        private void textBox30_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox255(sender, e);
+        }
+
+        private void textBox30_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox255(sender, e, textBox30);
+        }
+
+        private void textBox31_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validateTextBox255(sender, e);
+        }
+
+        private void textBox31_KeyUp(object sender, KeyEventArgs e)
+        {
+            validateTextBox255(sender, e, textBox31);
+        }
+        #endregion
     }
 }

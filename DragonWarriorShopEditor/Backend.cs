@@ -28,6 +28,12 @@ namespace DragonWarriorShopEditor
             string priceCombined = price1 + price2;
             string priceDec = convertHexToDecFourChar(priceCombined);
             string prettyPriceFinal = priceDec.TrimStart('0');
+            
+            if (prettyPriceFinal == "")
+            {
+                prettyPriceFinal = "0";
+            }
+
             return prettyPriceFinal;
         }
 
@@ -36,11 +42,22 @@ namespace DragonWarriorShopEditor
             string price = getHexStringFromFile(offset, 1);
             string priceDec = convertHexToDecTwoChar(price);
             string prettyPriceFinal = priceDec.TrimStart('0');
+
+            if (prettyPriceFinal == "")
+            {
+                prettyPriceFinal = "0";
+            }
+
             return prettyPriceFinal;
         }
 
         public bool setPrice(int offset, string price)
         {
+            if (String.IsNullOrEmpty(price))
+            {
+                price = "0";
+            }
+
             string hexValue = convertDecToHex(price);
             hexValue = hexValue.PadLeft(0x4, '0');
             string hexValueSubstring1 = hexValue.Substring(0, 2);
@@ -52,6 +69,11 @@ namespace DragonWarriorShopEditor
 
         public bool setPriceSingleByte(int offset, string price)
         {
+            if (String.IsNullOrEmpty(price))
+            {
+                price = "0";
+            }
+
             string hexValue = convertDecToHex(price);
             hexValue = hexValue.PadLeft(0x2, '0');
             

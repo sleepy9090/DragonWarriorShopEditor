@@ -187,6 +187,7 @@
             this.Controls.Add(this.buttonUpdateItems);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormRimuldar";
             this.Text = "Rimuldar";
             this.Load += new System.EventHandler(this.FormRimuldar_Load);

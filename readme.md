@@ -1,4 +1,4 @@
-﻿DragonWarriorShopEditor<br/>
+#﻿DragonWarriorShopEditor<br/>
 Shop Editor for Dragon Warrior USA NES<br/>
 Change prices for items in shops.<br/>
 Change items available in shops.<br/>

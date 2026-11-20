@@ -1,22 +1,18 @@
-﻿DragonWarriorShopEditor 1.0.1.28437
-Coded by: Shawn M. Crawford [sleepy9090]
-February 8, 2018
+﻿DragonWarriorShopEditor<br/>
+Shop Editor for Dragon Warrior USA NES<br/>
+Change prices for items in shops.<br/>
+Change items available in shops.<br/>
 
--Requires .NET Framework 3.5
+-Tested with headered Dragon Warrior (U) (PRG0) [!].nes ROM.<br/>
+-Tested with headered Dragon Warrior (U) (PRG1) [!].nes ROM.<br/>
 
-DragonWarriorShopEditor
-Shop Editor for Dragon Warrior USA NES
-Change prices for items in shops.
-Change items available in shops.
+Feel free to send bugs to sleepy3d@email.com or file them on github: https://github.com/sleepy9090<br/>
 
--Tested with headered Dragon Warrior (U) (PRG0) [!].nes ROM.
--Tested with headered Dragon Warrior (U) (PRG1) [!].nes ROM.
+<img width="461" height="391" alt="image" src="https://github.com/user-attachments/assets/dd770331-86fc-4622-90eb-edf61dc9dea1" /><br/>
 
-Feel free to send bugs to sleepy3d@email.com or file them on github: https://github.com/sleepy9090
+<img width="484" height="441" alt="image" src="https://github.com/user-attachments/assets/74ce0d2a-0633-498c-845a-33354d281bf7" /><br/>
 
-Version: 1.0.1.28437 February 8, 2018
--add better error handling and textbox validation
+<img width="392" height="231" alt="image" src="https://github.com/user-attachments/assets/79e7c7da-b601-4048-b73e-2a8577312386" /><br/>
 
-Version: 1.0.0.30614 February 4, 2018
--first version
+<img width="344" height="361" alt="image" src="https://github.com/user-attachments/assets/e2dfdea9-c39a-4ae6-a530-293c211c9dd4" /><br/>
 

@@ -13,3 +13,19 @@ f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\Dr
 f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.csproj.GenerateResource.Cache
 f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.exe
 f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.pdb
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\bin\Release\DragonWarriorShopEditor.exe
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\bin\Release\DragonWarriorShopEditor.pdb
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.AboutBox1.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormBrecconary.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormCantlin.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormGarinham.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormKol.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormMain.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormPrices.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.FormRimuldar.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.Properties.Resources.resources
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.exe
+C:\Users\Administrator\source\repos\DragonWarriorShopEditor\DragonWarriorShopEditor\obj\Release\DragonWarriorShopEditor.pdb

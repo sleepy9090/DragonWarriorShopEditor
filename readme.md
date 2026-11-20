@@ -6,8 +6,6 @@ Change items available in shops.<br/>
 -Tested with headered Dragon Warrior (U) (PRG0) [!].nes ROM.<br/>
 -Tested with headered Dragon Warrior (U) (PRG1) [!].nes ROM.<br/>
 
-Feel free to send bugs to sleepy3d@email.com or file them on github: https://github.com/sleepy9090<br/>
-
 <img width="461" height="391" alt="image" src="https://github.com/user-attachments/assets/dd770331-86fc-4622-90eb-edf61dc9dea1" /><br/>
 
 <img width="484" height="441" alt="image" src="https://github.com/user-attachments/assets/74ce0d2a-0633-498c-845a-33354d281bf7" /><br/>
